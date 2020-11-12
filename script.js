@@ -12,7 +12,7 @@ function geoFindMe() {
       var latitude  = position.coords.latitude;
       var longitude = position.coords.longitude;
   
-   output.innerHTML = 'latitude: ' + latitude + '; longitude: ' + longitude + ';';
+   output.innerHTML = '"latitude: ' + latitude + '; longitude: ' + longitude + ';"';
     };
   
     function error() {
